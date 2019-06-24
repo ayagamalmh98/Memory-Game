@@ -3,10 +3,45 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 body {
-    height: 100vh;
-    background: rgb(48, 51, 51);
+    display: flex;
+    background-image: url(5.jpg);
 }
+
+.memory-game{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    position: relative;
+    top: 50px; 
+}
+
+.card{
+    width: 15%;
+    height: 15%;
+    position: relative;
+    display: block;
+    margin: 5px;
+}
+
+.front-face{
+    border-radius: 10%;
+    box-shadow: 10px 10px 10px rgba(22, 20, 20, 0.3);
+    border: 2px white solid;
+}
+.card:hover{
+    transform: scale(.9);
+}
+
+.front-face,.back-face{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
 img {
     width: 100px;
 }
