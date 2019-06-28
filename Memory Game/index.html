@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class = "memory-game" onclick="Start()">
+        <div class = "card"  data-match = "shy">
+            <img class="back-face" src="img/A.png">
+            <img class="front-face" src="img/def.png">
+        </div>
+        <div class = "card" data-match = "shy">
+            <img class="back-face" src="img/A.png">
+            <img class="front-face" src="img/def.png">
+        </div>
+        <div class = "card" data-match = "sleepy">
+            <img class="back-face" src="img/B.png">
+            <img class="front-face" src="img/def.png">
+        </div>
+        <div class = "card" data-match = "sleepy">
+            <img class="back-face" src="img/B.png">
+            <img class="front-face" src="img/def.png">
+        </div>
+        <div class = "card" data-match = "sick">
+            <img class="back-face" src="img/C.png">
+            <img class="front-face" src="img/def.png">
+        </div>
+        <div class = "card" data-match = "sick">
+            <img class="back-face" src="img/C.png">
+            <img class="front-face" src="img/def.png">
+        </div>
+        <div class = "card" data-match = "smiley">
+            <img class="back-face" src="img/D.png">
+            <img class="front-face" src="img/def.png">
+        </div>
+        <div class = "card" data-match = "smiley">
+            <img class="back-face" src="img/D.png">
+            <img class="front-face" src="img/def.png">
+        </div>
+        <div class = "card" data-match = "haha">
+            <img class="back-face" src="img/E.png">
+            <img class="front-face" src="img/def.png">
+        </div>
+        <div class = "card" data-match = "haha">
+            <img class="back-face" src="img/E.png">
+            <img class="front-face" src="img/def.png">
+        </div>
+        <div class = "card" data-match = "hehe">
+            <img class="back-face" src="img/F.png">
+            <img class="front-face" src="img/def.png">
+        </div>
+        <div class = "card" data-match = "hehe">
+            <img class="back-face" src="img/F.png">
+            <img class="front-face" src="img/def.png">
+        </div>
+        <div class = "card" data-match = "sun">
+            <img class="back-face" src="img/G.png">
+            <img class="front-face" src="img/def.png">
+        </div>
+        <div class = "card" data-match = "sun">
+            <img class="back-face" src="img/G.png">
+            <img class="front-face" src="img/def.png">
+        </div> 
+        <div class = "card" data-match = "injured">
+            <img class="back-face" src="img/H.png">
+            <img class="front-face" src="img/def.png">
+        </div>
+        <div class = "card" data-match = "injured">
+            <img class="back-face" src="img/H.png">
+            <img class="front-face" src="img/def.png">
+        </div>
+        <div class = "card" data-match = "shock">
+            <img class="back-face" src="img/I.png">
+            <img class="front-face" src="img/def.png">
+        </div>
+        <div class = "card" data-match = "shock">
+            <img class="back-face" src="img/I.png">
+            <img class="front-face" src="img/def.png">
+        </div>
+        <div class = "card" data-match = "ghost">
+            <img class="back-face" src="img/J.png">
+            <img class="front-face" src="img/def.png">
+        </div>
+        <div class = "card" data-match = "ghost">
+            <img class="back-face" src="img/J.png">
+            <img class="front-face" src="img/def.png">
+        </div>
+        <div class = "card" data-match = "hug">
+            <img class="back-face" src="img/K.png">
+            <img class="front-face" src="img/def.png">
+        </div>
+        <div class = "card" data-match = "hug">
+            <img class="back-face" src="img/K.png">
+            <img class="front-face" src="img/def.png">
+        </div>
+        <div class = "card" data-match = "yummy">
+            <img class="back-face" src="img/L.png">
+            <img class="front-face" src="img/def.png">
+        </div>
+        <div class = "card" data-match = "yummy">
+            <img class="back-face" src="img/L.png">
+            <img class="front-face" src="img/def.png">
+        </div>
+        <div class = "card" data-match = "cry">
+            <img class="back-face" src="img/M.png">
+            <img class="front-face" src="img/def.png">
+        </div>
+        <div class = "card" data-match = "cry">
+            <img class="back-face" src="img/M.png">
+            <img class="front-face" src="img/def.png">
+        </div>
+        <div class = "card" data-match = "nerd">
+            <img class="back-face" src="img/N.png">
+            <img class="front-face" src="img/def.png">
+        </div>
+        <div class = "card" data-match = "nerd">
+            <img class="back-face" src="img/N.png">
+            <img class="front-face" src="img/def.png">
+        </div>
+        <div class = "card" data-match = "stupid">
+            <img class="back-face" src="img/O.png">
+            <img class="front-face" src="img/def.png">
+        </div>
+        <div class = "card" data-match = "stupid">
+            <img class="back-face" src="img/O.png">
+            <img class="front-face" src="img/def.png">
+        </div>
+        <div class = "card" data-match = "angry">
+            <img class="back-face" src="img/P.png">
+            <img class="front-face" src="img/def.png">
+        </div>
+        <div class = "card" data-match = "angry">
+            <img class="back-face" src="img/P.png">
+            <img class="front-face" src="img/def.png">
+        </div>
+        <div class = "card" data-match = "sad">
+            <img class="back-face" src="img/Q.png">
+            <img class="front-face" src="img/def.png">
+        </div>
+        <div class = "card" data-match = "sad">
+            <img class="back-face" src="img/Q.png">
+            <img class="front-face" src="img/def.png">
+        </div>
+        <div class = "card" data-match = "zip">
+            <img class="back-face" src="img/R.png">
+            <img class="front-face" src="img/def.png">
+        </div>
+        <div class = "card" data-match = "zip">
+            <img class="back-face" src="img/R.png">
+            <img class="front-face" src="img/def.png">
+        </div>
+    </section>
+    <img class="fla" src="1.png">
+    <div class="StopWatch">00:00</div>
+    <h1>Match The Pairs</h1>
+    <button onclick="newgame()">New Game</button>
+    <script src="scripts.js"></script>
+</body>
+</html>
