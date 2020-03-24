@@ -8,4 +8,4 @@ spot the identical pairs in each level.
 * It is a game which aims finding all matching pairs of pictures. At start all pictures are face down, click the boxes to uncover them if the last pictures don't match, that will
 again turn face down, repeat till you uncover all the pairs.
 
-* This game is develop in a simple web page , using HTML,CSS and Javascript.
+* This game is developed in a simple web page , using HTML,CSS and Javascript.
